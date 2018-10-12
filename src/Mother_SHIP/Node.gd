@@ -7,5 +7,8 @@ var name3="bat"
 var names_array = [name1, name2, name3]
 
 func _ready():
-	for current_name in names_array:
-		print("name:"+current_name)
+	say_my_name()
+		
+func say_my_name():
+	for curr_name in names_array:
+		print("Name - "+ curr_name)
